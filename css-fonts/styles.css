@@ -1,0 +1,10 @@
+h1, h2 {
+  font-family: 'League Gothic', sans-serif;
+  line-height: 1.4em;
+}
+
+p {
+  font-family: 'Smooch Sans', sans-serif;
+  line-height: 1.4em;
+  font-weight: bold;
+}
