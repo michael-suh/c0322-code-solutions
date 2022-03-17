@@ -15,19 +15,23 @@ input {
   width: 100%;
   padding: 17px;
   padding-left: 12px;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 20px;
   font-size: 18px;
+  border-style: groove;
+  border-color: whitesmoke;
 }
 
 select {
   width: 100%;
   padding: 17px;
   padding-left: 12px;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 10px;
   background-color: #f3f3f3;
   font-size: 18px;
+  border-style: groove;
+  border-color: whitesmoke;
 }
 
 label {
