@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: center;
+}
+
+.column-one-half {
+  flex-basis: 50%;
+}
+
+.column-one-third {
+  flex-basis: 33%;
+}
+
+.column-two-third {
+  flex-basis: 66%;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  max-width: 1000px;
+  font-size: 3.7rem;
+  text-align: center;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4mm;
+  text-align: left;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20pt;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.bio {
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+button {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d55d56;
+  background-color: white;
+  border: solid;
+  border-color: #d55d56;
+  width: 170px;
+  height: 40px;
+  font-size: 0.4cm;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 120px;
+}
