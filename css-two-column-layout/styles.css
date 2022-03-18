@@ -18,21 +18,14 @@
 
 .column-one-half {
   flex-basis: 50%;
-  flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .column-one-third {
   flex-basis: 33%;
-  flex-wrap: wrap;
-  text-align: right;
-  margin: 0 auto;
 }
 
 .column-two-third {
   flex-basis: 66%;
-  flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 h1 {
