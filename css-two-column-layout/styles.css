@@ -5,40 +5,46 @@
 }
 
 .container {
-  max-width: 1500px;
-  margin: 100px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: center;
 }
 
-.column-one-fourth {
+.column-one-half {
   flex-basis: 50%;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
-}
-
-.column-one-fourth-img {
-  flex-basis: 50%;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 5px;
   margin: 0 auto;
+}
+
+.column-one-third {
+  flex-basis: 33%;
+  flex-wrap: wrap;
   text-align: right;
-  max-width: 190px;
+  margin: 0 auto;
+}
+
+.column-two-third {
+  flex-basis: 66%;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 h1 {
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   margin-top: 5px;
   max-width: 1000px;
   font-size: 3.7rem;
   text-align: center;
+  justify-content: center;
 }
 
 h3 {
@@ -56,13 +62,12 @@ p {
   line-height: 20pt;
   text-align: left;
   margin-bottom: 50px;
-  max-width: 290px;
 }
 
 .bio {
   max-width: 700px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 button {
@@ -78,14 +83,11 @@ button {
   font-size: 0.4cm;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 img {
   width: 100px;
   height: 100px;
   margin-bottom: 120px;
-}
-
-body {
-  text-align: center;
 }
