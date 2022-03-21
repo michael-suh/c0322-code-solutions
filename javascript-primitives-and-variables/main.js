@@ -2,10 +2,9 @@ var fullName = 'Michael Suh';
 console.log('value of fullName:', fullName);
 
 var isCool = true;
-Boolean(isCool);
 console.log('value of isCool:', isCool);
 
-var totalPets = '0';
+var totalPets = 0;
 console.log('value of total pets:', totalPets);
 
 console.log('typeof fullName', typeof fullName);
