@@ -31,35 +31,35 @@
   left: 10%;
 }
 
-.header-one {
+.first-body-header {
   font-size: 1cm;
   line-height: 1.5cm;
   padding-top: 3cm;
 }
 
-.description-one {
+.first-body-description {
   font-size: 5mm;
   line-height: 1cm;
 }
 
-.button-two {
+.first-body-button {
   width: 190px;
   height: 55px;
   margin-top: 2cm;
 }
 
-.one {
+.header {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.two {
+.first-body {
   height: 800px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.three {
+.clinicians-location {
   background-color: #fafafa;
   justify-content: center;
   text-align: center;
@@ -99,7 +99,7 @@ h2 {
   font-size: 6mm;
 }
 
-.three-header {
+.clinicians-header {
   font-size: 1cm;
 }
 
@@ -113,7 +113,7 @@ button {
   font-size: 5mm;
 }
 
-.button-four {
+.button-more-information {
   position: relative;
   margin-top: 8%;
   margin-left: 50%;
@@ -121,7 +121,7 @@ button {
   height: 55px;
 }
 
-.button-one {
+.header-button {
   width: 130px;
   height: 50px;
 }
@@ -131,33 +131,33 @@ button {
   font-size: 9mm;
 }
 
-.four {
+.more-information {
   margin-bottom: 50px;
 }
 
-.five {
+.footer {
   background-color: #525351;
   color: white;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.six {
+.page-bottom {
   background-color: #fafafa;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.container-three {
+.container-clinicians {
   height: 300px;
 }
 
-.container-four {
+.container-more-information {
   margin-left: 150px;
   margin-top: 40px;
 }
 
-.container-five {
+.container-footer {
   height: 400px;
   text-align: left;
   justify-content: center;
@@ -166,11 +166,11 @@ button {
   position: relative;
 }
 
-.container-six {
+.container-page-bottom {
   height: 50px;
 }
 
-.container-one {
+.container-header {
   margin-left: 100px;
   height: 130px;
   justify-content: center;
@@ -223,14 +223,14 @@ button {
   left: 42%;
 }
 
-.column-one-third-first {
+.column-one-third-logo {
   margin-right: 80px;
   margin-top: 110px;
   justify-content: center;
   align-items: center;
 }
 
-.column-one-third-second {
+.column-one-third-company {
   text-align: left;
   margin-top: 110px;
   font-family: Avenir, sans-serif;
@@ -242,7 +242,7 @@ button {
   align-items: center;
 }
 
-.column-one-third-third {
+.column-one-third-product {
   text-align: left;
   margin-top: 110px;
   font-family: Avenir, sans-serif;
@@ -254,7 +254,7 @@ button {
   align-items: center;
 }
 
-.column-six-one {
+.column-bottom-privacy {
   margin-left: 100px;
   color: #777;
   font-family: Avenir, sans-serif;
@@ -263,7 +263,7 @@ button {
   font-size: 5mm;
 }
 
-.column-six-two {
+.column-bottom-contact {
   margin-left: 30px;
   color: #777;
   font-family: Avenir, sans-serif;
