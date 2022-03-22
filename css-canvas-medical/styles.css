@@ -9,6 +9,7 @@
 
 .column-one-half {
   flex-basis: 50%;
+  align-content: center;
 }
 
 .hero-image {
@@ -115,6 +116,9 @@ button {
 .button-more-information {
   width: 190px;
   height: 55px;
+  position: relative;
+  left: 50%;
+  top: 35%;
 }
 
 .learn {
@@ -124,7 +128,6 @@ button {
 
 .more-information {
   margin-bottom: 50px;
-  justify-content: center;
   align-items: center;
 }
 
@@ -141,11 +144,11 @@ button {
   margin-right: 50px;
 }
 
-.container-clinicians {
+.clinicians {
   height: 300px;
 }
 
-.container-more-information {
+.learn-more {
   margin-left: 150px;
   margin-top: 40px;
 }
