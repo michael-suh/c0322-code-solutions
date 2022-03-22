@@ -5,7 +5,6 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .column-one-half {
@@ -114,16 +113,8 @@ button {
 }
 
 .button-more-information {
-  position: relative;
-  margin-top: 8%;
-  margin-left: 50%;
   width: 190px;
   height: 55px;
-}
-
-.header-button {
-  width: 130px;
-  height: 50px;
 }
 
 .learn {
@@ -133,6 +124,8 @@ button {
 
 .more-information {
   margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -178,59 +171,33 @@ button {
   padding: 25px;
 }
 
-.column-two-sixth {
+.header-button {
+  width: 130px;
+  height: 50px;
+}
+
+.pages {
+  color: #777;
   font-family: Avenir, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
+  margin-left: 400px;
+  padding: 15px;
   font-size: 5mm;
-  color: #bfbfbf;
-  position: relative;
-  left: 30%;
 }
 
-.column-three-sixth {
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 5mm;
-  color: #bfbfbf;
-  position: relative;
-  left: 33%;
+.labels {
+  padding: 20px;
 }
 
-.column-four-sixth {
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 5mm;
-  color: #bfbfbf;
-  position: relative;
-  left: 36%;
-}
-
-.column-five-sixth {
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 5mm;
-  color: #bfbfbf;
-  position: relative;
-  left: 39%;
-}
-
-.column-six-sixth {
-  position: relative;
-  left: 42%;
-}
-
-.column-one-third-logo {
+.footer-logo {
   margin-right: 80px;
   margin-top: 110px;
   justify-content: center;
   align-items: center;
 }
 
-.column-one-third-company {
+.footer-company {
   text-align: left;
   margin-top: 110px;
   font-family: Avenir, sans-serif;
@@ -242,7 +209,7 @@ button {
   align-items: center;
 }
 
-.column-one-third-product {
+.footer-product {
   text-align: left;
   margin-top: 110px;
   font-family: Avenir, sans-serif;
@@ -254,7 +221,7 @@ button {
   align-items: center;
 }
 
-.column-bottom-privacy {
+.page-bottom-privacy {
   margin-left: 100px;
   color: #777;
   font-family: Avenir, sans-serif;
@@ -263,7 +230,7 @@ button {
   font-size: 5mm;
 }
 
-.column-bottom-contact {
+.page-bottom-contact {
   margin-left: 30px;
   color: #777;
   font-family: Avenir, sans-serif;
