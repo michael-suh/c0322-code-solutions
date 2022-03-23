@@ -8,23 +8,43 @@
             introduceWarnerBro
  */
 function isUnderFive(number) {
-  return number < 5;
+  if (number < 5) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isEven(number) {
-  return number % 2 === 0;
+  if ((number % 2) === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function startsWithJ(string) {
-  return string[0] === 'J';
+  if (string[0] === 'J') {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isOldEnoughToDrink(person) {
-  return person.age >= 21;
+  if (person.age >= 21) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isOldEnoughToDrive(person) {
-  return person.age >= 16;
+  if (person.age >= 16) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isOldEnoughToDrinkAndDrive(person) {
