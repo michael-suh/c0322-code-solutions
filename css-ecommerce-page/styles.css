@@ -47,7 +47,8 @@ img {
   font-style: normal;
   font-weight: normal;
   margin-left: 40px;
-  background-color: lightgoldenrodyellow;
+  background-color: #fff2e7;
+  border-radius: 8px;
 }
 
 .retail {
