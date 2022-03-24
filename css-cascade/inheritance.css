@@ -1,0 +1,9 @@
+div {
+  all: inherit;
+  color: blue;
+}
+
+p {
+  all: inherit;
+  color: red;
+}
