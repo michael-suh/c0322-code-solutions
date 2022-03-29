@@ -1,0 +1,43 @@
+* {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+}
+
+.background-color.dark {
+  background: #111;
+}
+
+.background-color.bright {
+  background: #fef9f1;
+}
+
+.center-button {
+  border-radius: 50%;
+  width: 8cm;
+  height: 8cm;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid;
+}
+
+.center-button.dark {
+  border-color: #252523;
+  background-color: #252523;
+}
+
+.center-button.bright {
+  background-color: #faea84;
+  border-color: #faea84;
+}
