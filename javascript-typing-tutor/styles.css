@@ -1,0 +1,33 @@
+* {
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  flex-basis: 100%;
+}
+
+span {
+  font-size: 1cm;
+}
+
+.underline {
+  border-bottom: solid;
+}
+
+.correct {
+  color: rgb(15 128 0);
+}
+
+.incorrect {
+  color: red;
+  border-bottom: solid;
+}
