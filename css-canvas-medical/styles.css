@@ -1,8 +1,6 @@
 .container {
   max-width: 800px;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .row {
@@ -12,6 +10,32 @@
 .column-one-half {
   flex-basis: 50%;
   align-content: center;
+}
+
+.column-one-third {
+  flex-basis: 25%;
+  width: 100%;
+}
+
+.column-pages {
+  width: 100%;
+}
+
+.top-label {
+  position: relative;
+  left: 20%;
+}
+
+.labels {
+  padding: 5px;
+  color: #777;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5mm;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .hero-image {
@@ -163,29 +187,23 @@ button {
   height: 50px;
 }
 
+.header-logo {
+  position: relative;
+  right: 30%;
+}
+
 .header-box {
   height: 130px;
   padding: 25px;
   width: 100%;
+  margin: 0;
 }
 
 .header-button {
   width: 130px;
   height: 50px;
-}
-
-.column-pages {
-  color: #777;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 400px;
-  padding: 15px;
-  font-size: 5mm;
-}
-
-.labels {
-  padding: 20px;
+  position: relative;
+  left: 20%;
 }
 
 .footer-logo {
@@ -202,7 +220,7 @@ button {
   font-style: normal;
   font-weight: 200;
   position: relative;
-  left: 35%;
+  left: 75%;
   font-size: 5mm;
   align-items: center;
 }
