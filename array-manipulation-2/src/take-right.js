@@ -8,3 +8,10 @@ function takeRight(array, count) {
   }
   return result;
 }
+
+// declare empty array for var result
+// use a for loop and set initialization to array.length - count
+// push array[i]
+// use if statement to see if count is greater than the array length.
+// if yes, result = array
+// return output
