@@ -1,17 +1,24 @@
 /* exported omit */
 function omit(source, keys) {
   var result = {};
-  var key = true;
-  for (var keyOfSources in source) {
-    for (var i = 0; i < keys.length; i++) {
-      if (keyOfSources === keys[i]) {
-        key = false;
+  var copy = true;
+  for (var i in source) {
+    for (var z = 0; z < keys.length; z++) {
+      if (i === keys[z]) {
+        copy = false;
       }
     }
-    if (key === true) {
-      result[keyOfSources] = source[keyOfSources];
+    if (copy === true) {
+      result[i] = source[i];
     }
-    key = false;
+    copy = true;
   }
   return result;
 }
+
+// declare an empty object literal for var result
+// declare another var equal to true
+// use for loop within the for in loop to loop through the keys
+// if copy is equal to keys[z], set key to false
+// if true, copy source to new object
+// return output
