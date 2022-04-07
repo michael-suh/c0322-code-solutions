@@ -1,0 +1,285 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-half {
+  flex-basis: 50%;
+  align-content: center;
+}
+
+.column-one-third {
+  flex-basis: 25%;
+  width: 100%;
+}
+
+.column-pages {
+  width: 100%;
+}
+
+.top-label {
+  position: relative;
+  left: 20%;
+}
+
+.labels {
+  padding: 5px;
+  color: #777;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5mm;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 20%)), url("images/hero.jpg");
+  height: 100%;
+  margin-left: 110px;
+  margin-right: 110px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  color: white;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 8mm;
+  position: absolute;
+  left: 10%;
+}
+
+.first-body-header {
+  font-size: 1cm;
+  line-height: 1.5cm;
+  padding-top: 3cm;
+}
+
+.first-body-description {
+  font-size: 5mm;
+  line-height: 1cm;
+}
+
+.first-body-button {
+  width: 190px;
+  height: 55px;
+  margin-top: 2cm;
+}
+
+.first-body {
+  height: 800px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.clinicians-location {
+  background-color: #fafafa;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 60px;
+}
+
+h2 {
+  color: #797979;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.bio {
+  color: #777;
+  text-align: center;
+  line-height: 8mm;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 5mm;
+}
+
+.three-text {
+  color: #777;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1cm;
+  font-size: 6mm;
+}
+
+.clinicians-header {
+  font-size: 1cm;
+}
+
+button {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  background-color: #294464;
+  color: white;
+  border-radius: 4px;
+  font-size: 5mm;
+}
+
+.button-more-information {
+  width: 190px;
+  height: 55px;
+  position: relative;
+  left: 50%;
+  top: 35%;
+}
+
+.learn {
+  text-align: left;
+  font-size: 9mm;
+}
+
+.more-information {
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.footer {
+  background-color: #525351;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.page-bottom {
+  background-color: #fafafa;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.clinicians {
+  height: 300px;
+}
+
+.learn-more {
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.container-footer {
+  height: 400px;
+  text-align: left;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.container-page-bottom {
+  height: 50px;
+}
+
+.header-logo {
+  position: relative;
+  right: 30%;
+}
+
+.header-box {
+  height: 130px;
+  padding: 25px;
+  width: 100%;
+  margin: 0;
+}
+
+.header-button {
+  width: 130px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+
+.footer-logo {
+  margin-right: 80px;
+  margin-top: 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-company {
+  text-align: left;
+  margin-top: 110px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  position: relative;
+  left: 75%;
+  font-size: 5mm;
+  align-items: center;
+}
+
+.footer-product {
+  text-align: left;
+  margin-top: 110px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  position: relative;
+  left: 45%;
+  font-size: 5mm;
+  align-items: center;
+}
+
+.page-bottom-privacy {
+  margin-left: 100px;
+  color: #777;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5mm;
+}
+
+.page-bottom-contact {
+  margin-left: 30px;
+  color: #777;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5mm;
+}
+
+img {
+  margin-bottom: 40px;
+}
+
+.address {
+  line-height: 25px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.meeting {
+  font-size: 4.5mm;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #777;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  color: lightgray;
+  background-color: lightgray;
+  position: relative;
+  bottom: 30px;
+}
