@@ -39,3 +39,5 @@ function titleCase(title) {
 // use if statement for api to strictly equal to API
 // use if statement to make any word after : into uppercase even if it is in the minor array
 // use if statement to make any first character into uppercase even if it is in the minor array
+// set var result using join method
+// return var result
