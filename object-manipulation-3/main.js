@@ -1,6 +1,14 @@
 console.log('Lodash is loaded:', typeof _ !== 'undefined');
 
-// create collection
+/*
+  Create total of 4 functions: creating the deck, dealing players, summing player scores, and finding the winner
+  createdeck = parameter of suit and rank. Use two for loop for suit and rank and push card into the deck. Use lodash _.shuffle to shuffle cards
+  dealplayers = parameter of cards. Use two for loops and push deck[z] into players hand. Use splice method on deck to replace 1 element at index i. Return players
+  playerscores = use two for loops. Set var total score to 0. if rank = ace, 11 points. if king, queen, or ace, 10 points.
+  otherwise, rank. set players[i].score = totalscore.
+  findwinner = declare var highest and set it to 0. if players[i] score is greater than highest, set highest to players[i].score.
+  if highest is equal to players[i].score, push players[i] into winners
+*/
 
 var players = [
   { name: 'playerOne', hand: [], score: 0 },
@@ -9,11 +17,13 @@ var players = [
   { name: 'playerFour', hand: [], score: 0 }
 ];
 
-// create collection of 52 objects
-
 var deck = [];
 var suit = ['hearts', 'diamonds', 'clubs', 'spades'];
 var rank = ['Ace', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King'];
+
+var highest = 0;
+var winner = '';
+var winners = [];
 
 function createDeck(suit, rank) {
   for (var i = 0; i < suit.length; i++) {
@@ -39,6 +49,7 @@ function dealPlayers(cards) {
   }
   return players;
 }
+
 function playerScores(players) {
   players = dealPlayers(2);
   for (var i = 0; i < players.length; i++) {
@@ -61,9 +72,6 @@ function playerScores(players) {
   return players;
 }
 
-var highest = 0;
-var winner = '';
-var winners = [];
 function findWinner(players) {
 
   players = playerScores(players);
