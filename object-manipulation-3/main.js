@@ -8,6 +8,7 @@ console.log('Lodash is loaded:', typeof _ !== 'undefined');
   otherwise, rank. set players[i].score = totalscore.
   findwinner = declare var highest and set it to 0. if players[i] score is greater than highest, set highest to players[i].score.
   if highest is equal to players[i].score, push players[i] into winners
+  display winner with some string text
 */
 
 var players = [
