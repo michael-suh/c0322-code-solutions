@@ -1,0 +1,500 @@
+  133  git status
+  134  git reset --soft HEAD^
+  135  git status
+  136  git restore --staged array-manipulation-1
+  137  git status
+  138  git commit -m "Updated string-manipulation-1"
+  139  git switch array-manipulation-1
+  140  git status
+  141  git add array-manipulation-1
+  142  git commit -m "array-manipulation-1 - Michael Suh"
+  143  git push origin array-manipulation-1
+  144  git switch array-manipulation-1
+  145  git switch main
+  146  clear
+  147  git status
+  148  git pull origin main
+  149  git branch object-manipulation-1
+  150  git switch object-manipulation-1
+  151  git status
+  152  git add object-manipulation-1
+  153  git commit -m "object-manipulation-1 - Michael Suh"
+  154  git push origin object-manipulation-1
+  155  git switch main
+  156  clear
+  157  git switch css-canvas-medical
+  158  git status
+  159  git add css-canvas-medical
+  160  git commit -m "edited columns"
+  161  git push origin css-canvas-medical
+  162  git switch main
+  163  clear
+  164  git pull origin main
+  165  git branch dom-querying
+  166  git branch --list
+  167  git switch dom-querying
+  168  git status
+  169  git add dom-querying
+  170  git commit -m "dom-querying - Michael Suh"
+  171  git push origin dom-querying
+  172  git switch main
+  173  clear
+  174  git branch dom-events
+  175  git switch dom-events
+  176  git status
+  177  git add dom-events
+  178  git commit -m "dom-events - Michael Suh"
+  179  git push origin dom-events
+  180  git switch main
+  181  clear
+  182  git status
+  183  git branch string-manipulation-2
+  184  git switch string-manipulation-2
+  185  git status
+  186  git add string-manipulation-2
+  187  git commit -m "still in progress"
+  188  git switch main
+  189  clear
+  190  git branch dom-manipulation
+  191  git switch dom-manipulation
+  192  git status
+  193  git add dom-manipulation
+  194  git commit -m "dom-manipulation - Michael Suh"
+  195  git push origin dom-manipulation
+  196  git switch main
+  197  clear
+  198  git switch string-manipulation-2
+  199  git status
+  200  git add string-manipulation-2
+  201  git commit -m "Still in progress!"
+  202  git switch main
+  203  clear
+  204  git pull origin main
+  205  git branch css-transforms
+  206  git switch css-transforms
+  207  git status
+  208  git add css-transforms
+  209  git commit -m "css-transforms - Michael Suh"
+  210  git push origin css-transforms
+  211  git switch main
+  212  clear
+  213  git pull origin main
+  214  git branch javascript-light-bulb
+  215  git switch javascript-light-bulb
+  216  git status
+  217  git add javascript-light-bulb
+  218  git commit -m "javascript-light-bulb - Michael Suh"
+  219  git push origin javascript-light-bulb
+  220  git switch main
+  221  clear
+  222  git pull origin main
+  223  git switch javascript-light-bulb
+  224  git status
+  225  git add javascript-light-bulb
+  226  git commit -m "made changes to js file"
+  227  git push origin javascript-light-bulb
+  228  git switch main
+  229  clear
+  230  git pull origin main
+  231  git branch javascript-modal
+  232  git switch javascript-modal
+  233  git status
+  234  git add javascript-modal
+  235  git commit -m "still in progress!"
+  236  git switch main
+  237  clear
+  238  git switch javascript-light-bulb
+  239  git status
+  240  git add javascript-light-bulb
+  241  git commit -m "used boolean value"
+  242  git push origin javascript-light-bulb
+  243  git switch main
+  244  clear
+  245  git switch javascript-modal
+  246  git status
+  247  git add javascript-modal
+  248  git commit -m "javascript-modal - Michael Suh"
+  249  git push origin javascript-modal
+  250  git switch main
+  251  clear
+  252  git branch javascript-typing-tutor
+  253  git switch javascript-typing-tutor
+  254  git status
+  255  git add javascript-typing-tutor
+  256  git commit -m "javascript-typing-tutor - Michael Suh"
+  257  git push origin javascript-typing-tutor
+  258  git switch main
+  259  clear
+  260  git switch string-manipulation-2
+  261  git status
+  262  git add string-manipulation-2
+  263  git commit -m "still in progress!"
+  264  git switch main
+  265  clear
+  266  git branch css-transitions
+  267  git switch css-transitions
+  268  git status
+  269  git add css-transitions
+  270  git commit -m "css-transitions - Michael Suh"
+  271  git push origin css-transitions
+  272  git switch main
+  273  clear
+  274  git pull origin main
+  275  git branch javascript-forms
+  276  git switch javascript-forms
+  277  git status
+  278  git add javascript-forms
+  279  git commit -m "javascript-forms - Michael Suh"
+  280  git push origin javascript-forms
+  281  git switch main
+  282  clear
+  283  git branch dom-creation
+  284  git switch dom-creation
+  285  git status
+  286  git add dom-creation
+  287  git commit -m "dom-creation - Michael Suh"
+  288  git push origin dom-creation
+  289  git switch main
+  290  clear
+  291  git switch string-manipulation-2
+  292  git status
+  293  git add string-manipulation-2
+  294  git commit -m "string-manipulation-2 - Michael Suh"
+  295  git push origin string-manipulation-2
+  296  git switch main
+  297  clear
+  298  git pull origin main
+  299  git branch array-manipulation-2
+  300  git switch array-manipulation-2
+  301  git status
+  302  git add array-manipulation-2
+  303  git commit -m "still in progress!"
+  304  git switch main
+  305  clear
+  306  git branch css-media-queries
+  307  git switch css-media-queries
+  308  git status
+  309  git add css-media-queries
+  310  git commit -m "css-media-queries - Michael Suh"
+  311  git push origin css-media-queries
+  312  git switch main
+  313  clear
+  314  git branch javascript-and-json
+  315  git switch javascript-and-json
+  316  git status
+  317  git add javascript-and-json
+  318  git commit -m "javascript-and-json - Michael Suh"
+  319  git push origin javascript-and-json
+  320  git switch main
+  321  clear
+  322  git switch array-manipulation-2
+  323  git status
+  324  git add array-manipulation-2
+  325  git commit -m "still in progress!"
+  326  git switch main
+  327  clear
+  328  git branch javascript-local-storage
+  329  git switch javascript-local-storage
+  330  git status
+  331  git add javascript-local-storage
+  332  git commit -m "javascript-local-storage - Michael Suh"
+  333  git push origin javascript-local-storage
+  334  git switch main
+  335  clear
+  336  git switch array-manipulation-2
+  337  git status
+  338  git add array-manipulation-2
+  339  git commit -m "still in progress!"
+  340  git switch main
+  341  git switch css-canvas-medical
+  342  git status
+  343  git add css-canvas-medical
+  344  git commit -m "added selector class column to css"
+  345  git push origin css-canvas-medical
+  346  git switch main
+  347  clear
+  348  git switch array-manipulation-2
+  349  git status
+  350  git add array-manipulation-2
+  351  git commit -m "array-manipulation-2 - Michael Suh"
+  352  git push origin array-manipulation-2
+  353  git switch main
+  354  clear
+  355  git branch object-manipulation-2
+  356  git switch object-manipulation-2
+  357  git status
+  358  git add object-manipulation-2
+  359  git commit -m "still in progress!"
+  360  git switch main
+  361  git status
+  362  git switch object-manipulation-2
+  363  git status
+  364  git add object-manipulation-2
+  365  git commit -m "object-manipulation-2 - Michael Suh"
+  366  git push origin object-manipulation-2
+  367  git switch main
+  368  clear
+  369  git status
+  370  git branch string-manipulation-3
+  371  git switch string-manipulation-3
+  372  git status
+  373  git add string-manipulation-3
+  374  git commit -m "still in progress!"
+  375  git switch main
+  376  git status
+  377  git pull origin main
+  378  git branch javascript-custom-methods
+  379  git switch javascript-custom-methods
+  380  git status
+  381  git add javascript-custom-methods
+  382  git status
+  383  git commit -m "javascript-custom-methods - Michael Suh
+  384  git commit -m "javascript-custom-methods - Michael Suh"
+  385  git status
+  386  git commit -m "javascript-custom-methods - Michael Suh"
+  387  git push origin javascript-custom-methods
+  388  git switch main
+  389  clear
+  390  git status
+  391  git branch javascript-this
+  392  git switch javascript-this
+  393  git status
+  394  git add javascript-this
+  395  git commit -m "javascript-this - Michael Suh"
+  396  git push origin javascript-this
+  397  git status
+  398  git switch main
+  399  clear
+  400  git switch string-manipulation-3
+  401  git status
+  402  git status
+  403  git add string-manipulation-3
+  404  git commit -m "string-manipulation-3 - Michael Suh"
+  405  git push origin string-manipulation-3
+  406  git switch main
+  407  clear
+  408  git status
+  409  git branch javascript-prototypes
+  410  git switch javascript-prototypes
+  411  git status
+  412  git add javascript-prototypes
+  413  git commit -m "javascript-prototypes - Michael Suh"
+  414  git push origin javascript-prototypes
+  415  git switch main
+  416  clear
+  417  git branch array-manipulation-3
+  418  git switch array-manipulation-3
+  419  git status
+  420  git add array-manipulation-3
+  421  git commit -m "array-manipulation-3
+  422  git status
+  423  git switch main
+  424  clear
+  425  git branch javascript-constructors
+  426  git switch javascript-constructors
+  427  git status
+  428  git add javascript-constructors
+  429  git commit -m "javascript-constructors - Michael Suh"
+  430  git push origin javascript-constructors
+  431  git switch main
+  432  clear
+  433  git status
+  434  git branch javascript-bank
+  435  git switch javascript-bank
+  436  git status
+  437  git add javascript-bank
+  438  git status
+  439  git commit -m "javascript-bank - Michael Suh
+  440  git status
+  441  git commit -m "javascript-bank - Michael Suh"
+  442  git push origin javascript-bank
+  443  git switch main
+  444  clear
+  445  git switch object-manipulation-3
+  446  git statuss
+  447  git status
+  448  git add object-manipulation-3
+  449  git commit -m "still in progress"
+  450  git status
+  451  git add object-manipulation-3
+  452  git commit -m "still in progress!"
+  453  git switch main
+  454  clear
+  455  git status
+  456  git branch javascript-timers
+  457  git switch javascript-timers
+  458  git status
+  459  git add javascript-timers
+  460  git status
+  461  git add javascript-timers
+  462  git commit -m "javascript-timers - Michael Suh"
+  463  git push origin javascript-timers
+  464  git switch main
+  465  clear
+  466  git status
+  467  git branch javascript-carousel
+  468  git switch javascript-carousel
+  469  git status
+  470  git add javascript-carousel
+  471  git commit -m "javascript-carousel - Michael Suh
+  472  git branch http-messages
+  473  git switch http-messages
+  474  http
+  475  http http://www.example.com
+  476  http --verbose http://www.example.com
+  477  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  478  http --body GET https://example.com > http-messages/index.html
+  479  git status
+  480  git add http-messages
+  481  git commit -m "http-messages - Michael Suh"
+  482  git push origin http-messages
+  483  git switch main
+  484  clear
+  485  git branch javascript-ajax
+  486  git switch javascript-ajax
+  487  git status
+  488  git add javascript-ajax
+  489  git commit -m "javascript-ajax - Michael Suh"
+  490  git push origin javascript-ajax
+  491  git switch main
+  492  clear
+  493  git status
+  494  git switch object-manipulation-3
+  495  git switch main
+  496  clear
+  497  git pull origin main
+  498  git switch main
+  499  clear
+  500  git switch array-manipulation-2
+  501  git switch main
+  502  clear
+  503  git switch object-manipulation-3
+  504  git commit -m "object-manipulation-3 - Michael Suh"
+  505  git status
+  506  git add object-manipulation-3
+  507  git commit -m "object-manipulation-3 - Michael Suh"
+  508  git push origin object-manipulation-3
+  509  git switch main
+  510  clear
+  511  git switch object-manipulation-3
+  512  git switch main
+  513  clear
+  514  git pull origin main
+  515  git branch es6-const-let
+  516  git switch es6-const-let
+  517  git status
+  518  git add es6-const-let
+  519  git commit -m "completed es6-const-let exercise"
+  520  git push origin es6-const-let
+  521  git switch main
+  522  clear
+  523  git pull origin main
+  524  git branch es6-template-literals
+  525  git switch es6-template-literals
+  526  git status
+  527  git add es6-template-literals
+  528  git commit -m "completed es6-template-literals exercise"
+  529  git push origin es6-template-literals
+  530  git switch main
+  531  clear
+  532  git status
+  533  git pull origin main
+  534  git branch es6-destructuring
+  535  git switch es6-destructuring
+  536  git status
+  537  git add es6-destructuring
+  538  git commit -m "completed es6-destructuring"
+  539  git push origin es6-destructuring
+  540  git switch main
+  541  clear
+  542  git status
+  543  git pull origin main
+  544  git branch es6-arrow-functions
+  545  git switch es6-arrow-functions
+  546  git status
+  547  git add es6-arrow-functions
+  548  git commit -m "completed es6-arrow-functions exercise"
+  549  git push origin es6-arrow-functions
+  550  git switch main
+  551  clear
+  552  git pull origin main
+  553  clear
+  554  git branch command-line-basics
+  555  git switch command-line-basics
+  556  cd command-line-basics
+  557  cd name-of-exercise
+  558  cd command-line-basics
+  559  cd command-line-basics
+  560  clear
+  561  cd command-line-basics
+  562  man man
+  563  man cat
+  564  man cat [laziness.txt]
+  565  man cat laziness.txt
+  566  cat laziness.txt
+  567  cat impatience.txt
+  568  cat hubris.txt
+  569  cat laziness.txt impatience.txt hubris.txt
+  570  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  571  cat three-virtues.txt
+  572  clear
+  573  man ls
+  574  ls command-line-basics
+  575  ls c0322-code-solutions
+  576  ls code-solutions
+  577  ls lfz-staff/
+  578  lfz-staff/-a
+  579  lfz-staff-a/
+  580  lfz-staff-F
+  581  lfz-staff/-F
+  582  man ls
+  583  ls -F lfz-staff/
+  584  ls -a lfz-staff/
+  585  ls -aF lfz-staff > lfz-staff/contents.txt
+  586  cat lfz-staff/contents.txt
+  587  clear
+  588  man pwd
+  589  pwd 
+  590  pwd > i-was-here.txt
+  591  cat i-was-here-.txt
+  592  cat i-was-here.txt
+  593  q
+  594  clear
+  595  man echo
+  596  man echo
+  597  echo 'Hello, World!'
+  598  echo 'Hello,World!' > hello.txt
+  599  ls 
+  600  cat hello.txt
+  601  clear
+  602  man touch
+  603  touch tag-youre-it.txt
+  604  touch snoot/boop.txt
+  605  ls snoot/
+  606  clear
+  607  man mkdir
+  608  mkdir parent
+  609  ls
+  610  mkdir -p parent/child/grandchild
+  611  touch parent/child/grandchild/.gitkeep
+  612  ls -a
+  613  ls -a parent
+  614  man mv
+  615  man mv
+  616  mv pokiemans pokemon
+  617  ls
+  618  man mv
+  619  man rm
+  620  man rm
+  621  rm lol.txt
+  622  rm -r kill-me/
+  623  ls
+  624  clear
+  625  man cp
+  626  cp and-then.txt no-and-then-txt
+  627  cat and-then-txt no-and-then-txt
+  628  cat and-then.txt
+  629  clear
+  630  man history
+  631  history
+  632  history > command-history.txt
