@@ -20,7 +20,6 @@ if (process.argv[2] === 'create') {
 
 // User can delete a note
 if (process.argv[2] === 'delete') {
-  data.nextId--;
   delete data.notes[process.argv[3]];
 
   fs.writeFile('data.json', JSON.stringify(data, null, 2), err => {
