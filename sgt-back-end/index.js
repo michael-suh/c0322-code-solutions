@@ -95,7 +95,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
         const grade = result.rows[0];
         if (!grade) {
           res.status(404).json({
-            error: `Cannot find grade with gradeId ${updateId}`
+            error: 'Cannot find grade with such id'
           });
         } else {
           res.status(200).json(grade);
