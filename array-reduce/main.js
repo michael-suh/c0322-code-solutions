@@ -23,16 +23,15 @@ console.log('sum:', sum);
 const product = numbers.reduce((previous, current) => previous * current);
 console.log('product:', product);
 
-let result = 0;
-const balance = account.reduce((previous, current) => {
-  if (current.type === 'deposit') {
-    result = previous + current.amount;
-  } else if (current.type === 'withdrawal') {
-    result = previous - current.amount;
+const balance = account.reduce((balance, transaction) => {
+  if (transaction.type === 'deposit') {
+    balance += transaction.amount;
+  } else {
+    balance -= transaction.amount;
   }
-  return result;
+  return balance;
 }, 0);
-console.log('balance:', balance);
+console.log('balance', balance);
 
 const composite = traits.reduce((previous, current) =>
   Object.assign(previous, current)
