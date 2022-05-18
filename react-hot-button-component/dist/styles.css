@@ -1,0 +1,36 @@
+/* 3 clicks = #351C75
+6 clicks = #674EA7
+9 clicks = #E06666
+12 clicks = #F6B26B
+15 clicks = #FFFF00
+18 clicks = #FFFFFF */
+
+.three {
+  background-color: #351c75;
+  color: white;
+}
+
+.six {
+  background-color: #674ea7;
+  color: white;
+}
+
+.nine {
+  background-color: #e06666;
+  color: white;
+}
+
+.twelve {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.fifteen {
+  background-color: #ff0;
+  color: black;
+}
+
+.eighteen {
+  background-color: #fff;
+  color: black;
+}
