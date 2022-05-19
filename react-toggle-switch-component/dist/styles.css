@@ -1,0 +1,63 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.slideron {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: green;
+  transition: 0.4s;
+}
+
+.slideroff {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.round {
+  border-radius: 34px;
+}
+
+.slideroff::before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 34px;
+}
+
+.slideron::before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 34px;
+  transform: translateX(26px);
+}
+
+.text {
+  font-size: large;
+  font-style: bold;
+  padding: 10px;
+  position: relative;
+  bottom: 10px;
+}
