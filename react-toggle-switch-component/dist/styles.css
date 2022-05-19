@@ -1,0 +1,96 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.slideron {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: green;
+  transition: 0.4s;
+}
+
+.slideroff {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slideron::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.slideroff::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  transform: translateX(26px);
+}
+
+div:checked + .slideron {
+  background-color: green;
+}
+
+div:focus + .slideron {
+  box-shadow: 0 0 1px green;
+}
+
+div:checked + .slideron::before {
+  transform: translateX(26px);
+}
+
+div:checked + .slideroff {
+  background-color: gray;
+}
+
+div:focus + .slideroff {
+  box-shadow: 0 0 1px gray;
+}
+
+.slideron.round {
+  border-radius: 34px;
+}
+
+.slideroff.round {
+  border-radius: 34px;
+}
+
+.slideron.round::before {
+  border-radius: 50%;
+}
+
+.slideroff.round::before {
+  border-radius: 50%;
+}
+
+.text {
+  padding-left: 10px;
+  vertical-align: top;
+  position: relative;
+  top: 7px;
+  font-style: bold;
+  font-size: large;
+}
