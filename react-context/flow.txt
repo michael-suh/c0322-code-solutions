@@ -1,0 +1,22 @@
+User can sign up
+- once the user creates username and password and submit button is pushed, post request is sent to '/api/auth/sign-up'.
+  The server then receives the request and decides to whether to throw an error (in case where there is an issue with username or pw)
+  or to move forward with the request. If moved forward, the argon2 creates a hashedPassword and inserts username and hashedPassword into the database within the users table.
+  If all of the above is done successfully, the client receives a message in JSON and the user is taken to the sign in page.
+
+User can sign in
+- If the sign-in button on the nav bar is clicked, the user is taken to the sign in page. Once the username and password is submitted, the post method
+  sends a request to '/api/auth/sign-in'. Then, the server receives the request and will throw an error if there is any issues with username and password.
+  If not, the servers runs the sql query to get the matching username. Argon 2 will then verify the hashedPassword and the userPassword.
+  If it does not match, error is thrown and if it does, the payload and token are created and calls the handleSignIn method.
+  The token is then saved in the localStorage.
+
+User can stay signed in (even if they refresh the page)
+- When user refreshes the page, componentDidMount is called in app.jsx. Then, the getItem method is called in the localStorage then checks for a token.
+  If the token exists, it re-renders the page.
+
+
+User can sign out
+- Once the user clicks sign-out button, the onClick property calls the handleSignOut function and token is removed from localStorage.
+  The user property of the state is then updated to null and the state re-renders in the app component.
+  The user is then taken back to the sign in page.
